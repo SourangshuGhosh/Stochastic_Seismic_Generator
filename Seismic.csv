@@ -1,0 +1,52 @@
+RadiationPattern,   /*  The S-wave radiation coefficient is taken to be in the interval 0.48–0.64 following  following Boore and Boatwright (1984)  */
+0.64,
+StressDrop,        /*  Enter the difference of stress in the fault plane before and after the rupture occurs in Pa */
+300,
+ShearWaveVelocity,  /* Enter the shear wave velocity in km/s */
+3.7,
+SourceDensity,   /* Enter the density at the focal point of the earthquake in g/cm^3 */
+2.8,
+MomentMagnitude,  /* Enter the Moment Magnitude of Earthquake at the epicenter */
+7,
+HypocentralDistance,  /* Enter the Distance between Epicenter and the site in Km */
+200,
+FocalDepth,   /* Enter the Depth of the Focal Point below the earth's crust in Km */
+10,
+DipAngle,   /* Enter the Dip of the Fault plane in degress */
+10,
+FaultStrike, /* Enter the Fault Strike of the Fault plane in degrees */
+10,
+Azimuth,  /* Enter the azimuth of the site relative to the origin point(Leftmost corner of the fault rupture square) */
+40,
+kappa,  /* Enter the Dimunution frequency coefficient */
+0.035,
+GroundMotionTime,   /* Enter the Ground Motion Time in seconds */
+60,
+QFactor_A,   /* Please enter the Qfactor_A in the form of (QFactor_A)*frequency^(QFactor_B) for the path from source to site */
+460,
+QFactor_B,   /* Please enter the Qfactor_B in the form of (QFactor_A)*frequency^(QFactor_B) for the path from source to site */
+0.38,
+PulsingRate, /* Please enter the pulsing percentage rate of the rupture of the fault */
+25,
+Frequency_Min, /* The minimum frequecny in Hz of the earthquake ground motion spectrum */
+0.005,
+Frequency_Max, /* The maximum frequecny in Hz of the earthquake ground motion spectrum */
+15,
+Deltaf,  /* The value of frequency increment in Hz(Low value recommended) */
+0.005,
+Epsilon, /* The value of epsilon parameter of the window function */
+0.4,
+Eta,    /* The value of eta parameter of the window function */
+0.5,
+fTgm,   /* The Ratio between expanded time and groundmotion time */
+0.5,
+Reference_Distance,  /* The Reference Distance of the source in Km is */
+1,
+R1,  /* The Value of Geometrical Spreading parameter 1 */
+10,
+p1,  /* The value of Geometrical Spreading parameter 2 */
+0.5,
+Energy_Partition,    /* The partition of total shear-wave energy into horizontal components */
+0.707,
+Effect_FreeSurface  /* The effect of the free surface is */
+2, 
